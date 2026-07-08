@@ -6,13 +6,13 @@ export function Hero() {
   return (
     <section className="relative flex min-h-svh items-center justify-center overflow-hidden">
       <Image
-        src="/images/hero-ranch.svg"
-        alt="Golden-hour view over the rolling foothills and vineyards of Borello Ranch"
+        src="/images/borello-ranch-entry.jpg"
+        alt="The Borello Ranch Estates entry monument and gatehouse at dusk"
         fill
         preload
         className="object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/25 to-black/60" />
+      <div className="absolute inset-0 bg-linear-to-b from-black/70 via-black/40 to-black/75" />
 
       <div className="relative z-10 mx-auto max-w-4xl px-4 py-32 text-center sm:px-6">
         <p className="mb-5 text-xs font-medium tracking-[0.35em] text-amber-100/90 uppercase sm:text-sm">

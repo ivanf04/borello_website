@@ -1,3 +1,4 @@
+import { Community } from "@/components/site/community";
 import { Contact } from "@/components/site/contact";
 import { FeaturedListings } from "@/components/site/featured-listings";
 import { Hero } from "@/components/site/hero";
@@ -14,6 +15,7 @@ export default function Home() {
         <Hero />
         <Stats />
         <WhyBorello />
+        <Community />
         <FeaturedListings />
         <Contact />
       </main>

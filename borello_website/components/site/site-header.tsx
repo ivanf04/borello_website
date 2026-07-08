@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
@@ -12,13 +13,14 @@ export function SiteHeader() {
   return (
     <header className="absolute inset-x-0 top-0 z-20">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-5 sm:px-6 lg:px-8">
-        <Link href="/" className="text-primary-foreground">
-          <span className="font-heading text-lg tracking-wide sm:text-xl">
-            Borello Ranch
-          </span>
-          <span className="ml-2 hidden text-xs font-medium tracking-[0.25em] uppercase opacity-80 sm:inline">
-            Estates
-          </span>
+        <Link href="/" aria-label="Borello Ranch Estates home">
+          <Image
+            src="/images/borello-ranch-logo.svg"
+            alt="Borello Ranch Estates"
+            width={596}
+            height={118}
+            className="h-7 w-auto brightness-0 invert sm:h-8"
+          />
         </Link>
         <nav className="hidden items-center gap-8 md:flex">
           {navLinks.map((link) => (

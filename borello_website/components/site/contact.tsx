@@ -7,12 +7,12 @@ const contactDetails = [
   {
     icon: Phone,
     label: "Sales Gallery",
-    value: "(408) 555-0147",
+    value: "(408) 444-1880",
   },
   {
     icon: Mail,
     label: "Email",
-    value: "hello@borelloranchestates.com",
+    value: "monica@scorecalifornia.com",
   },
   {
     icon: Clock,
