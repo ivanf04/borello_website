@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Clock, Mail, Phone } from "lucide-react";
 
 import { Card, CardContent } from "@/components/ui/card";
@@ -37,6 +38,29 @@ export function Contact() {
               Walk the homesites at golden hour, tour our model residences, and
               let our team craft a visit around what matters most to you.
             </p>
+
+            <div className="mt-8 flex items-start gap-5 border-t border-primary-foreground/15 pt-8">
+              <Image
+                src="/images/head-shot.jpg"
+                alt="Monica Faranda, listing agent"
+                width={1024}
+                height={1024}
+                sizes="80px"
+                className="size-20 shrink-0 rounded-full object-cover ring-2 ring-primary-foreground/20"
+              />
+              <div>
+                <p className="font-heading text-lg">Monica Faranda</p>
+                <p className="text-xs tracking-wide text-primary-foreground/60 uppercase">
+                  Listing Agent · DRE #01381704
+                </p>
+                <p className="mt-2 text-sm leading-relaxed text-primary-foreground/80">
+                  A trusted South Valley specialist, Monica pairs deep local
+                  market knowledge with a concierge approach — guiding buyers
+                  and sellers through every detail of life at Borello Ranch.
+                </p>
+              </div>
+            </div>
+
             <ul className="mt-8 space-y-5">
               {contactDetails.map((item) => (
                 <li key={item.label} className="flex items-start gap-4">

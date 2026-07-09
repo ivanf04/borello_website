@@ -7,7 +7,7 @@ export function Community() {
         <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <div className="relative aspect-video overflow-hidden rounded-xl ring-1 ring-foreground/10 lg:order-2">
             <Image
-              src="/images/clubhouse-aerial.jpg"
+              src="/images/club-pool.jpg"
               alt="Aerial view of the Borello Ranch Estates clubhouse and pool"
               fill
               sizes="(min-width: 1024px) 50vw, 100vw"
