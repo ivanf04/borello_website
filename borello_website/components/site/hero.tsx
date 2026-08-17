@@ -26,19 +26,12 @@ export function Hero() {
           expansive homesites — where vineyard views, oak-studded hillsides,
           and timeless architecture meet, minutes from downtown Morgan Hill.
         </p>
-        <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+        <div className="mt-10 flex justify-center">
           <Button
             render={<a href="#contact" />}
             className="h-12 w-full bg-accent px-8 text-base text-accent-foreground hover:bg-accent/85 sm:w-auto"
           >
             Schedule a Private Tour
-          </Button>
-          <Button
-            render={<a href="#listings" />}
-            variant="outline"
-            className="h-12 w-full border-white/50 bg-transparent px-8 text-base text-white hover:bg-white/10 hover:text-white sm:w-auto"
-          >
-            View Listings
           </Button>
         </div>
       </div>

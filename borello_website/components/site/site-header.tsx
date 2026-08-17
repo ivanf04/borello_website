@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 const navLinks = [
   { href: "#stats", label: "The Neighborhood" },
   { href: "#why", label: "Why Borello Ranch" },
-  { href: "#listings", label: "Listings" },
+  { href: "#community", label: "Community" },
 ];
 
 export function SiteHeader() {

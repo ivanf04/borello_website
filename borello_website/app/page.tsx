@@ -1,6 +1,5 @@
 import { Community } from "@/components/site/community";
 import { Contact } from "@/components/site/contact";
-import { FeaturedListings } from "@/components/site/featured-listings";
 import { Hero } from "@/components/site/hero";
 import { SiteFooter } from "@/components/site/site-footer";
 import { SiteHeader } from "@/components/site/site-header";
@@ -16,7 +15,6 @@ export default function Home() {
         <Stats />
         <WhyBorello />
         <Community />
-        <FeaturedListings />
         <Contact />
       </main>
       <SiteFooter />
