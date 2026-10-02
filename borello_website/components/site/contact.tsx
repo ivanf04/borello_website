@@ -11,7 +11,7 @@ const EMAIL = "monica@scorecalifornia.com";
 const contactDetails = [
   {
     icon: Phone,
-    label: "Sales Gallery",
+    label: "Contact Monica",
     value: PHONE_DISPLAY,
   },
   {
@@ -21,8 +21,8 @@ const contactDetails = [
   },
   {
     icon: Clock,
-    label: "Tours",
-    value: "Daily 10am – 5pm, by appointment",
+    label: "Showings",
+    value: "By appointment, subject to property availability",
   },
 ];
 
@@ -36,11 +36,12 @@ export function Contact() {
               Private Showings
             </p>
             <h2 className="font-heading text-3xl text-balance sm:text-4xl">
-              Experience Borello Ranch in Person
+              Find Your Home in Borello Ranch Estates
             </h2>
             <p className="mt-4 leading-relaxed text-primary-foreground/80">
-              Walk the homesites at golden hour, tour our model residences, and
-              let our team craft a visit around what matters most to you.
+              Explore resale homes available in the neighborhood with Monica
+              Faranda. Contact Monica for current listings and to arrange a
+              private showing, subject to availability.
             </p>
 
             <ul className="mt-8 space-y-5">
