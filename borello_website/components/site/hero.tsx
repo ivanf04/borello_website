@@ -23,7 +23,7 @@ export function Hero() {
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-white/85 text-pretty sm:text-lg">
           Explore resale opportunities in this gated Morgan Hill community of
-          Toll Brothers single-family homes, with a recreation center, pool,
+          single-family homes, with a recreation center, pool,
           spa, and courts for pickleball and bocce.
         </p>
         <div className="mt-10 flex justify-center">
