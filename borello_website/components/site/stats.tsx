@@ -2,24 +2,24 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const stats = [
   {
-    value: "$2.4M",
-    label: "Median Sale Price",
-    detail: "Luxury segment, Morgan Hill",
+    value: "Gated",
+    label: "Community",
+    detail: "Single-family homes in Morgan Hill",
   },
   {
-    value: "1+ Acre",
-    label: "Estate Homesites",
-    detail: "Room for pools, vineyards & ADUs",
+    value: "Single- & Two-Story",
+    label: "Homes",
+    detail: "A variety of Toll Brothers home designs",
   },
   {
-    value: "4,200+",
-    label: "Average Square Feet",
-    detail: "Single-story & two-story plans",
+    value: "Pool & Spa",
+    label: "Recreation Center",
+    detail: "Cabanas and a community gathering room",
   },
   {
-    value: "10 Min",
-    label: "To Downtown Morgan Hill",
-    detail: "Dining, tasting rooms & Caltrain",
+    value: "Pickleball & Bocce",
+    label: "Community Courts",
+    detail: "Places to play within the neighborhood",
   },
 ];
 
@@ -32,14 +32,14 @@ export function Stats() {
             The Neighborhood
           </p>
           <h2 className="font-heading text-3xl text-balance sm:text-4xl">
-            A Rare Address in the South Valley
+            Get to Know Borello Ranch Estates
           </h2>
         </div>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {stats.map((stat) => (
             <Card key={stat.label} className="text-center">
               <CardContent className="py-4">
-                <p className="font-heading text-4xl text-accent">{stat.value}</p>
+                <p className="font-heading text-2xl text-balance text-accent">{stat.value}</p>
                 <p className="mt-3 text-sm font-medium tracking-wide uppercase">
                   {stat.label}
                 </p>

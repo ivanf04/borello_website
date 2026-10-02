@@ -13,9 +13,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Borello Ranch Estates | Luxury Living in Morgan Hill",
+  title: "Borello Ranch Estates Resale Homes | Monica Faranda",
   description:
-    "Discover Borello Ranch Estates — an exclusive enclave of luxury estate homes in the golden foothills of Morgan Hill, California.",
+    "Explore resale opportunities in Borello Ranch Estates, a gated community of Toll Brothers homes in Morgan Hill, California, with realtor Monica Faranda.",
 };
 
 export default function RootLayout({

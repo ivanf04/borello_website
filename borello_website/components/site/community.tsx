@@ -22,10 +22,21 @@ export function Community() {
               A Clubhouse Built for Gathering
             </h2>
             <p className="mt-4 leading-relaxed text-muted-foreground">
-              At the heart of Borello Ranch sits a resort-style clubhouse and
-              pool, framed by manicured grounds and mature landscaping —
-              a private retreat for residents to unwind, entertain, and
-              connect just steps from home.
+              The Borello Ranch Estates recreation center includes a pool, spa,
+              barbecue area, private cabanas, and an outdoor fireplace. Pickleball
+              and bocce courts provide places to play, and a community gathering
+              room is available to rent.
+            </p>
+            <p className="mt-4 text-sm text-muted-foreground">
+              Visit the{" "}
+              <a
+                href="https://www.borelloranchowners.com/home/"
+                className="underline underline-offset-4 hover:text-foreground"
+              >
+                Borello Ranch Estates Owners Association
+              </a>{" "}
+              for community information. Confirm current dues, amenity rules,
+              and reservation details with the association.
             </p>
           </div>
         </div>

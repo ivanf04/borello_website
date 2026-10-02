@@ -19,26 +19,26 @@ export function Hero() {
           Morgan Hill, California
         </p>
         <h1 className="font-heading text-4xl leading-tight text-white text-balance sm:text-6xl lg:text-7xl">
-          Estate Living Among the Golden Foothills
+          Find Your Home in Borello Ranch Estates
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-white/85 text-pretty sm:text-lg">
-          Borello Ranch Estates is an exclusive enclave of luxury residences on
-          expansive homesites — where vineyard views, oak-studded hillsides,
-          and timeless architecture meet, minutes from downtown Morgan Hill.
+          Explore resale opportunities in this gated Morgan Hill community of
+          Toll Brothers single-family homes, with a recreation center, pool,
+          spa, and courts for pickleball and bocce.
         </p>
         <div className="mt-10 flex justify-center">
           <Button
             render={<a href="#contact" />}
             className="h-12 w-full bg-accent px-8 text-base text-accent-foreground hover:bg-accent/85 sm:w-auto"
           >
-            Schedule a Private Tour
+            Arrange a Private Showing
           </Button>
         </div>
       </div>
 
       <a
         href="#stats"
-        aria-label="Scroll to neighborhood stats"
+        aria-label="Scroll to neighborhood highlights"
         className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2 text-white/70 transition-colors hover:text-white"
       >
         <svg
